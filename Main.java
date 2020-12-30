@@ -40,7 +40,7 @@ public class Main {
                     StringBuilder string = new StringBuilder();
                     for (int i = 14; i >= 0; i--) {
                         if (s.getNumber() >= roman[i].getValue()) {
-                            s.setNumber(s.getNumber()-roman[i].getValue());  ;
+                            s.setNumber(s.getNumber()-roman[i].getValue());  
                             string.append(roman[i].name()); }
                             }
                     System.out.println(string);
